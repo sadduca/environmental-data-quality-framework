@@ -173,7 +173,7 @@ A combined executive visualization including:
 
 Enabling both technical validation and stakeholder communication.
 
-![Operational Risk Dashboard](outputs/diagnostic-operational-risk-dashboard.png)
+![Operational Risk Dashboard](outputs/diagnostic_operational_risk_dashboard.png)
 ---
 
 ## 🧩 Key Data Science Features
