@@ -30,14 +30,14 @@ This framework converts raw daily environmental observations into a **quantitati
 
 This framework enables risk-aware decision-making in climate-sensitive industries:
 
-* **Hydropower & Renewable Energy**: Improves inflow modeling, generation forecasting, and asset risk evaluation by filtering unreliable environmental inputs.
-* **Agriculture & Agri-Finance**: Strengthens yield modeling, drought risk assessment, and crop insurance pricing through structured data validation.
-* **Insurance & Financial Risk**: Reduces model risk in climate exposure pricing and parametric insurance design.
-* **Infrastructure & Water Management**: Supports flood planning, reservoir operations, and long-term resilience analysis.
-* **Extractive Industries (Mining & Natural Resources)**: Enhances operational safety planning, water resource management, and climate exposure assessment in remote or climate-sensitive operations.
-* **Remote Sensing & Environmental Intelligence**: Supports station calibration, hybrid ground-satellite validation, and weighted data integration for climate analytics platforms.
-* **Banking & Climate Stress Testing**: Improves the robustness of climate scenario inputs used in financial risk modeling, portfolio exposure analysis, and regulatory stress testing frameworks.
-* **Data Science & Predictive Modeling**: Acts as a governance layer for environmental data pipelines before ML training or risk modeling.
+* **Hydropower & Renewable Energy**
+* **Agriculture & Agri-Finance**
+* **Insurance & Financial Risk**
+* **Infrastructure & Water Management**
+* **Extractive Industries (Mining & Natural Resources)**
+* **Remote Sensing & Environmental Intelligence**
+* **Banking & Climate Stress Testing**
+* **Data Science & Predictive Modeling**
 
 This project demonstrates how environmental data quality can be transformed into structured Risk Intelligence for business decision-making.
 
@@ -106,13 +106,15 @@ This design mirrors risk scoring approaches used in:
 
 Stations are classified into five reliability tiers:
 
-* Very Good
-* Good
-* Moderate
-* Low
-* Very Low
+| Reliability Tier | STRS Range  |
+| ---------------- | ----------- |
+| Very Good        | ≥ 0.80      |
+| Good             | 0.60 – 0.80 |
+| Moderate         | 0.45 – 0.60 |
+| Low              | 0.30 – 0.45 |
+| Very Low         | < 0.30      |
 
-This tiering enables:
+This enables:
 
 * Risk-adjusted station selection for modeling
 * Data filtering before ML training
