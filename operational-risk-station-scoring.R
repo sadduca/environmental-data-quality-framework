@@ -331,7 +331,7 @@ if (!all(c("gauge_lat", "gauge_lon") %in% colnames(scores_final))) {
 
 map_plot <- ggplot() +
   geom_polygon(data = world_map, aes(x = long, y = lat, group = group),
-               fill = "gray90", color = "gray50", size = 0.2) +
+               fill = "gray90", color = "gray50", linewidth = 0.2) +
   geom_point(data = scores_final, 
              aes(x = gauge_lon, y = gauge_lat, fill = reliability),
              size = 2.5, alpha = 0.9, 
