@@ -173,6 +173,7 @@ A combined executive visualization including:
 
 Enabling both technical validation and stakeholder communication.
 
+![Operational Risk Dashboard](outputs/diagnostic-operational-risk-dashboard.png)
 ---
 
 ## 🧩 Key Data Science Features
@@ -197,15 +198,14 @@ This framework enables risk-aware decision-making in climate-sensitive industrie
 * **Agriculture & Agri-Finance**: Strengthens yield modeling, drought risk assessment, and crop insurance pricing through structured data validation.
 * **Insurance & Financial Risk**: Reduces model risk in climate exposure pricing and parametric insurance design.
 * **Infrastructure & Water Management**: Supports flood planning, reservoir operations, and long-term resilience analysis.
-* * **Extractive Industries (Mining & Natural Resources)**: Enhances operational safety planning, water resource management, and climate exposure assessment in remote or climate-sensitive operations.
+* **Extractive Industries (Mining & Natural Resources)**: Enhances operational safety planning, water resource management, and climate exposure assessment in remote or climate-sensitive operations.
 * **Remote Sensing & Environmental Intelligence**: Supports station calibration, hybrid ground-satellite validation, and weighted data integration for climate analytics platforms.
 * **Banking & Climate Stress Testing**: Improves the robustness of climate scenario inputs used in financial risk modeling, portfolio exposure analysis, and regulatory stress testing frameworks.
 * **Data Science & Predictive Modeling**: Acts as a governance layer for environmental data pipelines before ML training or risk modeling.
 
 This project demonstrates how environmental data quality can be transformed into structured Risk Intelligence for business decision-making.
 
-👉 Full Risk Intelligence report available here:
-View Project Report
+👉 Full Risk Intelligence report available here: [View Project Report]()
 
 ---
 
