@@ -1,6 +1,6 @@
 # 🔍 Environmental Data Quality Framework for Business Risk Mitigation
 
-## 🏛 Executive Summary
+## 📌 Executive Summary
 
 This project builds a quantitative environmental data reliability framework that converts raw monitoring station records into a structured **risk scoring system**.
 
