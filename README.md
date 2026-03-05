@@ -1,11 +1,5 @@
 # 🔍 Environmental Data Quality Framework for Business Risk Mitigation
 
-Perfecto. Te paso una versión más estratégica, orientada a **Data Science + Risk Analytics**, con framing más corporativo y analítico. Está lista para copiar y pegar en tu `README.md`.
-
----
-
-# 🔍 Environmental Data Quality Framework for Business Risk Mitigation
-
 A data-driven framework designed to quantify environmental data reliability and transform raw station records into structured risk intelligence.
 
 This project operationalizes a **scoring-based reliability model** to assess environmental monitoring stations and mitigate downstream modeling, financial, and operational risks.
@@ -64,16 +58,24 @@ A composite metric derived from five orthogonal quality dimensions:
 
 The final reliability score is computed as a weighted linear aggregation:
 
-[
+$$
 STRS =
 w_{TC} TC +
 w_{MC} MC +
 w_{SD} SD +
 w_{SS} SS +
 w_{TD} TD
-]
+$$
 
 Default weights reflect operational risk priorities:
+
+$$
+w_TC = 0.30
+w_MC = 0.25
+w_SD = 0.15
+w_SS = 0.10
+w_TD = 0.20
+$$
 
 * Structural availability (30%)
 * Operational continuity (25%)
