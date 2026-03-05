@@ -69,7 +69,7 @@ $$
 
 Default weights reflect operational risk priorities:
 
-* Structural availability (30%): $ w_{TC} = 0.30 $
+* Structural availability (30%): $w_{TC} = 0.30$
 * Operational continuity (25%): $ w_{MC} = 0.25 $
 * Seasonal representativeness (15%): $ w_{SD} = 0.15 $
 * Stability (10%): $ w_{SS} = 0.10 $
