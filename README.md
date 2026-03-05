@@ -154,7 +154,6 @@ Each row represents a monitoring station with engineered reliability features.
 # ℹ 114 more rows 
 ```
 
-
 This structure is designed for:
 
 * Risk-based filtering before modeling
@@ -174,6 +173,7 @@ A combined executive visualization including:
 Enabling both technical validation and stakeholder communication.
 
 ![Operational Risk Dashboard](outputs/diagnostic_operational_risk_dashboard.png)
+
 ---
 
 ## 🧩 Key Data Science Features
