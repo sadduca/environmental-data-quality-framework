@@ -40,7 +40,7 @@ The system implements an end-to-end analytical pipeline:
 
 The core output is the:
 
-### 📊 Station Reliability Total Score (STRS)
+### 📊 Station Reliability Score (STRS)
 
 A composite metric derived from five orthogonal quality dimensions:
 
@@ -79,7 +79,7 @@ w_{TD} &= 0.20
 \end{aligned}
 $$
 
-* Structural availability (30%)
+* Structural availability (30%): $$ w_{TC} &= 0.30 $$
 * Operational continuity (25%)
 * Historical robustness (20%)
 * Seasonal representativeness (15%)
