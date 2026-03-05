@@ -69,21 +69,11 @@ $$
 
 Default weights reflect operational risk priorities:
 
-$$
-\begin{aligned}
-w_{TC} &= 0.30 \\
-w_{MC} &= 0.25 \\
-w_{SD} &= 0.15 \\
-w_{SS} &= 0.10 \\
-w_{TD} &= 0.20
-\end{aligned}
-$$
-
-* Structural availability (30%): $$ w_{TC} &= 0.30 $$
-* Operational continuity (25%)
-* Historical robustness (20%)
-* Seasonal representativeness (15%)
-* Stability (10%)
+* Structural availability (30%): $$ w_{TC} = 0.30 $$
+* Operational continuity (25%): $$ w_{MC} = 0.25 $$
+* Seasonal representativeness (15%): $$ w_{SD} = 0.15 $$
+* Stability (10%): $$ w_{SS} = 0.10 $$
+* Historical robustness (20%): $$ w_{TD} = 0.20 $$
 
 The Temporal Depth component applies an exponential saturation function to prevent overweighting extremely long records while rewarding fully complete years.
 
