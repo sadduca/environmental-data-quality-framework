@@ -389,7 +389,7 @@ if (SAVE_OUTPUT) {
             row.names = FALSE)
   
   # Save combined figure
-  ggsave(file.path(OUTPUT_DIR, "diagnostic_oprational_risk_dashboard.png"),
+  ggsave(file.path(OUTPUT_DIR, "diagnostic_operational_risk_dashboard.png"),
          combined_plot, width = 9, height = 9, dpi = 600, bg='white')
   
   print_msg("BI dataset and combined plot exported successfully.")
