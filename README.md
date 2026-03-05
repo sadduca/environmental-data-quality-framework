@@ -132,7 +132,7 @@ Each row represents a monitoring station with engineered reliability features.
 | SD                    | Seasonal Depth                           |
 | SS                    | Seasonal Stability                       |
 | TD                    | Temporal Depth                           |
-| STRS                  | Composite reliability score               |
+| STRS                  | Composite reliability score              |
 | reliability           | Tier classification                      |
 
 **Overview:**
@@ -205,7 +205,7 @@ This framework enables risk-aware decision-making in climate-sensitive industrie
 
 This project demonstrates how environmental data quality can be transformed into structured Risk Intelligence for business decision-making.
 
-👉 Full Risk Intelligence report available here: [View Project Report]()
+👉 Full Risk Intelligence report available here: [View Report](https://www.notion.so/Environmental-Data-Quality-Framework-for-Business-Risk-Mitigation-30e43fe0ba2e80388e0df2797886b686)
 
 ---
 
