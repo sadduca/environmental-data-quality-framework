@@ -214,6 +214,28 @@ Description:
 
 ---
 
+## 🌍 Data Source
+
+The precipitation dataset used in this project is part of the PatagoniaMet
+hydrometeorological database for Western Patagonia.
+
+Citation:
+
+Aguayo, R., León-Muñoz, J., Aguayo, M., Baez-Villanueva, O., Fernandez, A.,
+Zambrano-Bigiarini, M., & Jacques-Coper, M. (2024).
+PatagoniaMet: A multi-source hydrometeorological dataset for Western Patagonia.
+Scientific Data, 11, 6.
+https://doi.org/10.1038/s41597-023-02828-2
+
+Code repository:
+https://github.com/rodaguayo/PatagoniaMet
+
+The files included in the `data/` directory correspond to the precipitation
+component of the PatagoniaMet dataset and are provided for reproducibility of
+the analysis pipeline implemented in this repository.
+
+---
+
 ## 👤 Author
 
 **Santino Adduca**  
